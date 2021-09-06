@@ -1,0 +1,439 @@
+@font-face {
+    font-family: 'FiraCode NF';
+    src: local('Fira Code Bold Nerd Font Complete Mono Windows Compatible'), local('FiraCodeNerdFontCompleteM-Bold'),
+        url('fonts/firacode/FiraCodeNerdFontCompleteM-Bold.woff2') format('woff2'),
+        url('fonts/firacode/FiraCodeNerdFontCompleteM-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FiraCode NF';
+    src: local('Fira Code Light Nerd Font Complete Mono Windows Compatible'), local('FiraCodeNerdFontCompleteM-Light'),
+        url('fonts/firacode/FiraCodeNerdFontCompleteM-Light.woff2') format('woff2'),
+        url('fonts/firacode/FiraCodeNerdFontCompleteM-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FiraCode NF';
+    src: local('Fira Code Bold Nerd Font Complete Windows Compatible'), local('FiraCodeNerdFontComplete-Bold'),
+        url('fonts/firacode/FiraCodeNerdFontComplete-Bold.woff2') format('woff2'),
+        url('fonts/firacode/FiraCodeNerdFontComplete-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FiraCode NF';
+    src: local('Fira Code Medium Nerd Font Complete Mono Windows Compatible'), local('FiraCodeNerdFontComplete-Medium'),
+        url('fonts/firacode/FiraCodeNerdFontComplete-Medium.woff2') format('woff2'),
+        url('fonts/firacode/FiraCodeNerdFontComplete-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FiraCode NF';
+    src: local('Fira Code Medium Nerd Font Complete Windows Compatible'), local('FiraCodeNerdFontComplete-Medium'),
+        url('fonts/firacode/FiraCodeNerdFontComplete-Medium.woff2') format('woff2'),
+        url('fonts/firacode/FiraCodeNerdFontComplete-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FiraCode NF';
+    src: local('Fira Code Light Nerd Font Complete Windows Compatible'), local('FiraCodeNerdFontComplete-Light'),
+        url('fonts/firacode/FiraCodeNerdFontComplete-Light.woff2') format('woff2'),
+        url('fonts/firacode/FiraCodeNerdFontComplete-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FiraCode NF';
+    src: local('Fira Code Regular Nerd Font Complete Mono Windows Compatible'), local('FiraCodeNerdFontComplet-Regular'),
+        url('fonts/firacode/FiraCodeNerdFontComplet-Regular.woff2') format('woff2'),
+        url('fonts/firacode/FiraCodeNerdFontComplet-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FiraCode NF';
+    src: local('Fira Code Retina Nerd Font Complete Mono Windows Compatible'), local('FiraCodeNerdFontComplete-Retina'),
+        url('fonts/firacode/FiraCodeNerdFontComplete-Retina.woff2') format('woff2'),
+        url('fonts/firacode/FiraCodeNerdFontComplete-Retina.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FiraCode NF';
+    src: local('Fira Code Regular Nerd Font Complete Windows Compatible'), local('FiraCodeNerdFontComplet-Regular'),
+        url('fonts/firacode/FiraCodeNerdFontComplet-Regular.woff2') format('woff2'),
+        url('fonts/firacode/FiraCodeNerdFontComplet-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FiraCode NF';
+    src: local('Fira Code Retina Nerd Font Complete Windows Compatible'), local('FiraCodeNerdFontComplete-Retina'),
+        url('fonts/firacode/FiraCodeNerdFontComplete-Retina.woff2') format('woff2'),
+        url('fonts/firacode/FiraCodeNerdFontComplete-Retina.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuraCode NF';
+    src: local('Fura Code Bold Nerd Font Complete Windows Compatible'), local('FuraCodeNerdFontComplete-Bold'),
+        url('fonts/firacode/FuraCodeNerdFontComplete-Bold.woff2') format('woff2'),
+        url('fonts/firacode/FuraCodeNerdFontComplete-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuraCode NF';
+    src: local('Fura Code Bold Nerd Font Complete Mono Windows Compatible'), local('FuraCodeNerdFontCompleteM-Bold'),
+        url('fonts/firacode/FuraCodeNerdFontCompleteM-Bold.woff2') format('woff2'),
+        url('fonts/firacode/FuraCodeNerdFontCompleteM-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuraCode NF';
+    src: local('Fura Code Light Nerd Font Complete Mono Windows Compatible'), local('FuraCodeNerdFontCompleteM-Light'),
+        url('fonts/firacode/FuraCodeNerdFontCompleteM-Light.woff2') format('woff2'),
+        url('fonts/firacode/FuraCodeNerdFontCompleteM-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuraCode NF';
+    src: local('Fura Code Medium Nerd Font Complete Mono Windows Compatible'), local('FuraCodeNerdFontComplete-Medium'),
+        url('fonts/firacode/FuraCodeNerdFontComplete-Medium.woff2') format('woff2'),
+        url('fonts/firacode/FuraCodeNerdFontComplete-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuraCode NF';
+    src: local('Fura Code Medium Nerd Font Complete Windows Compatible'), local('FuraCodeNerdFontComplete-Medium'),
+        url('fonts/firacode/FuraCodeNerdFontComplete-Medium.woff2') format('woff2'),
+        url('fonts/firacode/FuraCodeNerdFontComplete-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuraCode NF';
+    src: local('Fura Code Light Nerd Font Complete Windows Compatible'), local('FuraCodeNerdFontComplete-Light'),
+        url('fonts/firacode/FuraCodeNerdFontComplete-Light.woff2') format('woff2'),
+        url('fonts/firacode/FuraCodeNerdFontComplete-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuraCode NF';
+    src: local('Fura Code Regular Nerd Font Complete Windows Compatible'), local('FuraCodeNerdFontComplet-Regular'),
+        url('fonts/firacode/FuraCodeNerdFontComplet-Regular.woff2') format('woff2'),
+        url('fonts/firacode/FuraCodeNerdFontComplet-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuraCode NF';
+    src: local('Fura Code Regular Nerd Font Complete Mono Windows Compatible'), local('FuraCodeNerdFontComplet-Regular'),
+        url('fonts/firacode/FuraCodeNerdFontComplet-Regular.woff2') format('woff2'),
+        url('fonts/firacode/FuraCodeNerdFontComplet-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuraCode NF';
+    src: local('Fura Code Retina Nerd Font Complete Mono Windows Compatible'), local('FuraCodeNerdFontComplete-Retina'),
+        url('fonts/firacode/FuraCodeNerdFontComplete-Retina.woff2') format('woff2'),
+        url('fonts/firacode/FuraCodeNerdFontComplete-Retina.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuraCode NF';
+    src: local('Fura Code Retina Nerd Font Complete Windows Compatible'), local('FuraCodeNerdFontComplete-Retina'),
+        url('fonts/firacode/FuraCodeNerdFontComplete-Retina.woff2') format('woff2'),
+        url('fonts/firacode/FuraCodeNerdFontComplete-Retina.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrainsMono NF';
+    src: local('JetBrains Mono Bold Nerd Font Complete Mono Windows Compatible'), local('JetBrainsMonoNerdFontCompl-Bold'),
+        url('fonts/jetbrainsmono/JetBrainsMonoNerdFontCompl-Bold.woff2') format('woff2'),
+        url('fonts/jetbrainsmono/JetBrainsMonoNerdFontCompl-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrainsMono NF';
+    src: local('JetBrains Mono Bold Italic Nerd Font Complete Mono Windows Compatible'), local('JetBrainsMonoNerdFo-BoldItalic'),
+        url('fonts/jetbrainsmono/JetBrainsMonoNerdFo-BoldItalic.woff2') format('woff2'),
+        url('fonts/jetbrainsmono/JetBrainsMonoNerdFo-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrainsMono NF';
+    src: local('JetBrains Mono Bold Italic Nerd Font Complete Windows Compatible'), local('JetBrainsMonoNerdFo-BoldItalic'),
+        url('fonts/jetbrainsmono/JetBrainsMonoNerdFo-BoldItalic.woff2') format('woff2'),
+        url('fonts/jetbrainsmono/JetBrainsMonoNerdFo-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrainsMono NF';
+    src: local('JetBrains Mono Bold Nerd Font Complete Windows Compatible'), local('JetBrainsMonoNerdFontCompl-Bold'),
+        url('fonts/jetbrainsmono/JetBrainsMonoNerdFontCompl-Bold.woff2') format('woff2'),
+        url('fonts/jetbrainsmono/JetBrainsMonoNerdFontCompl-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrainsMono NF';
+    src: local('JetBrains Mono ExtBd Ita Nerd Font Complete Mono Windows Compatible'), local('JetBrainsMonoNerdFontCom-Italic'),
+        url('fonts/jetbrainsmono/JetBrainsMonoNerdFontCom-Italic.woff2') format('woff2'),
+        url('fonts/jetbrainsmono/JetBrainsMonoNerdFontCom-Italic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrainsMono NF';
+    src: local('JetBrains Mono ExtBd Ita Nerd Font Complete Windows Compatible'), local('JetBrainsMonoNerdFontCom-Italic'),
+        url('fonts/jetbrainsmono/JetBrainsMonoNerdFontCom-Italic.woff2') format('woff2'),
+        url('fonts/jetbrainsmono/JetBrainsMonoNerdFontCom-Italic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrainsMono NF';
+    src: local('JetBrains Mono Extra Bold Nerd Font Complete Mono Windows Compatible'), local('JetBrainsMonoNerdFont-ExtraBold'),
+        url('fonts/jetbrainsmono/JetBrainsMonoNerdFont-ExtraBold.woff2') format('woff2'),
+        url('fonts/jetbrainsmono/JetBrainsMonoNerdFont-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrainsMonoExtraBold NF';
+    src: local('JetBrains Mono ExtraBold ExBd I Nerd Font Complete Mono Windows Compatible'), local('JetBrainsMonoExtraBoldNe-Italic'),
+        url('fonts/jetbrainsmono/JetBrainsMonoExtraBoldNe-Italic.woff2') format('woff2'),
+        url('fonts/jetbrainsmono/JetBrainsMonoExtraBoldNe-Italic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrainsMono NF';
+    src: local('JetBrains Mono Extra Bold Nerd Font Complete Windows Compatible'), local('JetBrainsMonoNerdFont-ExtraBold'),
+        url('fonts/jetbrainsmono/JetBrainsMonoNerdFont-ExtraBold.woff2') format('woff2'),
+        url('fonts/jetbrainsmono/JetBrainsMonoNerdFont-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrainsMonoExtraBold NF';
+    src: local('JetBrains Mono ExtraBold ExBd I Nerd Font Complete Windows Compatible'), local('JetBrainsMonoExtraBoldNe-Italic'),
+        url('fonts/jetbrainsmono/JetBrainsMonoExtraBoldNe-Italic.woff2') format('woff2'),
+        url('fonts/jetbrainsmono/JetBrainsMonoExtraBoldNe-Italic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrainsMonoExtraBold NF';
+    src: local('JetBrains Mono ExtraBold ExtBd Nerd Font Complete Mono Windows Compatible'), local('JetBrainsMonoExtraBoldNer-ExtBd'),
+        url('fonts/jetbrainsmono/JetBrainsMonoExtraBoldNer-ExtBd.woff2') format('woff2'),
+        url('fonts/jetbrainsmono/JetBrainsMonoExtraBoldNer-ExtBd.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrainsMonoExtraBold NF';
+    src: local('JetBrains Mono ExtraBold ExtBd Nerd Font Complete Windows Compatible'), local('JetBrainsMonoExtraBoldNer-ExtBd'),
+        url('fonts/jetbrainsmono/JetBrainsMonoExtraBoldNer-ExtBd.woff2') format('woff2'),
+        url('fonts/jetbrainsmono/JetBrainsMonoExtraBoldNer-ExtBd.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrainsMono NF';
+    src: local('JetBrains Mono Italic Nerd Font Complete Mono Windows Compatible'), local('JetBrainsMonoNerdFontCom-Italic'),
+        url('fonts/jetbrainsmono/JetBrainsMonoNerdFontCom-Italic.woff2') format('woff2'),
+        url('fonts/jetbrainsmono/JetBrainsMonoNerdFontCom-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrainsMono NF';
+    src: local('JetBrains Mono Italic Nerd Font Complete Windows Compatible'), local('JetBrainsMonoNerdFontCom-Italic'),
+        url('fonts/jetbrainsmono/JetBrainsMonoNerdFontCom-Italic.woff2') format('woff2'),
+        url('fonts/jetbrainsmono/JetBrainsMonoNerdFontCom-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrainsMono NF';
+    src: local('JetBrains Mono Medium Italic Nerd Font Complete Mono Windows Compatible'), local('JetBrainsMonoNerdFontCom-Italic'),
+        url('fonts/jetbrainsmono/JetBrainsMonoNerdFontCom-Italic.woff2') format('woff2'),
+        url('fonts/jetbrainsmono/JetBrainsMonoNerdFontCom-Italic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrainsMono NF';
+    src: local('JetBrains Mono Medium Italic Nerd Font Complete Windows Compatible'), local('JetBrainsMonoNerdFontCom-Italic'),
+        url('fonts/jetbrainsmono/JetBrainsMonoNerdFontCom-Italic.woff2') format('woff2'),
+        url('fonts/jetbrainsmono/JetBrainsMonoNerdFontCom-Italic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrainsMonoMedium NF';
+    src: local('JetBrains Mono Medium Med Ita Nerd Font Complete Windows Compatible'), local('JetBrainsMonoMediumNerdF-Italic'),
+        url('fonts/jetbrainsmono/JetBrainsMonoMediumNerdF-Italic.woff2') format('woff2'),
+        url('fonts/jetbrainsmono/JetBrainsMonoMediumNerdF-Italic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrainsMonoMedium NF';
+    src: local('JetBrains Mono Medium Med Ita Nerd Font Complete Mono Windows Compatible'), local('JetBrainsMonoMediumNerdF-Italic'),
+        url('fonts/jetbrainsmono/JetBrainsMonoMediumNerdF-Italic.woff2') format('woff2'),
+        url('fonts/jetbrainsmono/JetBrainsMonoMediumNerdF-Italic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrainsMonoMedium NF';
+    src: local('JetBrains Mono Medium Medium Nerd Font Complete Windows Compatible'), local('JetBrainsMonoMediumNerdF-Medium'),
+        url('fonts/jetbrainsmono/JetBrainsMonoMediumNerdF-Medium.woff2') format('woff2'),
+        url('fonts/jetbrainsmono/JetBrainsMonoMediumNerdF-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrainsMono NF';
+    src: local('JetBrains Mono Medium Nerd Font Complete Mono Windows Compatible'), local('JetBrainsMonoNerdFontCom-Medium'),
+        url('fonts/jetbrainsmono/JetBrainsMonoNerdFontCom-Medium.woff2') format('woff2'),
+        url('fonts/jetbrainsmono/JetBrainsMonoNerdFontCom-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrainsMonoMedium NF';
+    src: local('JetBrains Mono Medium Medium Nerd Font Complete Mono Windows Compatible'), local('JetBrainsMonoMediumNerdF-Medium'),
+        url('fonts/jetbrainsmono/JetBrainsMonoMediumNerdF-Medium.woff2') format('woff2'),
+        url('fonts/jetbrainsmono/JetBrainsMonoMediumNerdF-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrainsMono NF';
+    src: local('JetBrains Mono Medium Nerd Font Complete Windows Compatible'), local('JetBrainsMonoNerdFontCom-Medium'),
+        url('fonts/jetbrainsmono/JetBrainsMonoNerdFontCom-Medium.woff2') format('woff2'),
+        url('fonts/jetbrainsmono/JetBrainsMonoNerdFontCom-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrainsMono NF';
+    src: local('JetBrains Mono Regular Nerd Font Complete Windows Compatible'), local('JetBrainsMonoNerdFontCo-Regular'),
+        url('fonts/jetbrainsmono/JetBrainsMonoNerdFontCo-Regular.woff2') format('woff2'),
+        url('fonts/jetbrainsmono/JetBrainsMonoNerdFontCo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrainsMono NF';
+    src: local('JetBrains Mono Regular Nerd Font Complete Mono Windows Compatible'), local('JetBrainsMonoNerdFontCo-Regular'),
+        url('fonts/jetbrainsmono/JetBrainsMonoNerdFontCo-Regular.woff2') format('woff2'),
+        url('fonts/jetbrainsmono/JetBrainsMonoNerdFontCo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

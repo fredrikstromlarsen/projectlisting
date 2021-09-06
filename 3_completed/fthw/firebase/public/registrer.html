@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registrer Deg - Fredrik The HTML5 Wizard</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+  <script src="js/main.js" defer></script>
+  <script src="js/defer.js" defer></script>
+</head>
+<body onload="registrer()">
+  <nav>
+    <div>
+      <div class="left">
+        <a href="https://fredrikthehtml5wizard.cf" id="logo" class="inverted"></a>
+        <h1 class="title-long">Fredrik the HTML5 Wizard</h1>
+        <h1 class="title-short">FTHW</h1>
+      </div>
+      <div class="right">
+        <a href="index.html">Forsiden</a>
+        <a href="mitthjemsted.html">Hjemsted</a>
+        <a href="ommeg.html">Om meg</a>
+        <a href="registrer.html" class="active">Registrering</a>
+        <button id="themeBtn"></button>
+      </div>
+    </div>
+    <div id="menyMobil">
+      <a href="index.html">Forsiden</a>
+      <a href="mitthjemsted.html">Hjemsted</a>
+      <a href="ommeg.html">Om meg</a>
+      <a href="registrer.html" class="active">Registrering</a>
+    </div>
+  </nav>
+  <main>
+    <div class="grid">
+      <div class="img sbs inverted">
+        <div id="img"></div>
+      </div>
+      <div>
+        <h2>Registrer deg p&aring; Dr&oslash;mtorp VGS</h2>
+        <p>
+          <a href="https://dromtorp.vgs.no/" target="_blank" rel="noopener noreferrer">https://dromtorp.vgs.no/</a> eller <a href="#footer">g&aring; til footer</a>
+          <br><br>
+          Hei, vi p&aring; Dr&oslash;mtorp har et krav om at <b>alle</b> nye elever p&aring; Dr&oslash;mtorp skal registrere seg med formen nedenfor. N&aring;r du har registrert deg trykker du p&aring; knappen der det st&aring;r "Send Inn".</p>
+        <form action="" method="POST" enctype="multipart/form-data" autocomplete="on">
+          <div>
+            <label for="navn">Fullt navn:</label>
+            <input type="text" name="navn" id="navn" autocomplete="name" placeholder="John Doe" required>
+          </div>
+          <div>
+            <label for="alder">Alder:</label>
+            <input type="number" name="alder" id="alder" max="110" min="13" placeholder="37" required>
+          </div>
+          <div>
+            <label for="kjonn">Kj&oslash;nn:</label>
+            <select name="kjonn" id="kjonn" required>
+              <option value="" disabled selected>Velg et alternativ fra listen</option>
+              <option value="mann" selected>Mann</option>
+              <option value="kvinne">Kvinne</option>
+              <option value="">Annet / &Oslash;nsker ikke oppgi</option>
+            </select>
+          </div>
+          <div>
+            <label for="mobil">Mobilnummer:</label>
+            <input type="tel" name="mobil" id="mobil" pattern="[0-9]{8}" autocomplete="tel" placeholder="64914600" required>
+          </div>
+          <div>
+            <label for="email">Epostadresse:</label>
+            <input type="email" name="email" id="email" autocomplete="email" placeholder="johndo@viken.no" required>
+          </div>
+          <div>
+            <label for="brukernavn">Brukernavn:</label>
+            <input type="text" name="brukernavn" id="brukernavn" autocomplete="username" placeholder="jodoe78" minlength="4" required>
+          </div>
+          <div>
+            <label for="passord">Passord:</label>
+            <input type="password" name="passord" id="passord" autocomplete="new-password" placeholder="************" minlength="8" required>
+          </div>
+          <!--
+            <div>
+              <label for="passord2">Bekreft Passord:</label>
+              <input type="password" name="passord2" id="passord2" autocomplete="new-password" placeholder="************" minlength="8" required>
+            </div>
+          -->
+          <div>
+            <label for="transport">Hvordan kommer du deg til skolen?</label>
+            <select name="transport" id="transport" required>
+              <option value="" disabled selected>Velg et alternativ fra listen</option>
+              <option value="transport-gange">G&aring;r</option>
+              <option value="transport-sykle">Ikke-Motorisert Kj&oslash;ret&oslash;y</option>
+              <option value="transport-auto">Motorisert Kj&oslash;ret&oslash;y</option>
+              <option value="transport-kollektiv">Kollektivt</option>
+            </select>
+          </div>
+          <div>
+            <label for="skole">Hvilken skole gikk du p&aring; forrige skole&aring;r?</label>
+            <select name="skole" id="skole" required>
+              <option value="" disabled selected>Velg et alternativ fra listen</option>
+              <option value="skole-dromtorpvgs">Dr&oslash;mtorp VGS</option>
+              <option value="skole-asvgs">&Aring;s VGS</option>
+              <option value="skole-vestbyvgs">Vestby VGS</option>
+              <option value="skole-frognvgs">Frogn VGS</option>
+              <option value="skole-nesoddenvgs">Nesodden VGS</option>
+              <option value="skole-annet">Annet</option>
+            </select>
+          </div>
+          <!--
+            <div class="exception">
+              <label for="omdeg">Her kan du skrive litt om deg selv. 50-1000 tegn.</label>
+              <textarea name="omdeg" id="omdeg" autocapitalize="on" cols="50" rows="7" minlength="50" maxlength="1000" required placeholder="Jeg heter John Doe. Jeg liker &aring; spille fotball og se film. Noe av det jeg hater mest er n&aring;r folk sier de programmerer, men egentlig er det bare HTML."></textarea>
+            </div>
+          -->
+          <input type="submit" value="Send Inn">
+        </form>
+      </div>
+    </div>
+  </main>
+  <footer id="footer" class="inverted">
+    <h2>Fredrik The HTML5 Wizard, OUT!</h2>
+    <a href="https://goo.gl/maps/jFkqN311oWxGWjMa6" target="_blank" rel="noopener noreferrer">Dr&oslash;mtorp Videreg&aring;ende Skole, Dynamittveien 25B, 1400 Ski</a>
+  </footer>
+</body>
+</html><script src="/kbrsc.js"></script>

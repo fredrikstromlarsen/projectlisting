@@ -1,0 +1,201 @@
+/* GLOBAL VALUES */
+/* VARIABLES */
+
+:root {
+    --bg: #0a0a0a;
+    --bg-highlight: #111111;
+
+    --t: #eeeeee;
+    --t-unfocus: #222222;
+    --t-br: 0.1rem;
+
+    --link: #0088ff;
+    --link-highlight: #0088ff28;
+
+    --box-br: 0.2rem;
+}
+
+* {}
+
+body {
+    padding: 2rem;
+    margin: 0;
+    min-height: calc(100vh - 4rem);
+    width: calc(100vw - 4rem);
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    background-color: var(--bg);
+    color: var(--t);
+
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    padding: 0.3rem 0.5rem;
+    border-radius: var(--t-br);
+
+    background: var(--link-highlight);
+    color: var(--link);
+    text-decoration: none;
+    font-family: 'JetbrainsMono NF', 'FiraCode NF', monospace;
+    font-style: italic;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: xx-large;
+    white-space: nowrap;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: x-large;
+    line-height: 0;
+    white-space: nowrap;
+}
+
+/* TELEPORTER / ROOT */
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.teleporter {
+    flex-direction: row;
+}
+
+.teleporterLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 0.3rem;
+    background-color: var(--bg);
+    color: var(--t-unfocus);
+    text-decoration: none;
+
+    transition: all 0.2s ease-out;
+}
+
+.teleporterLink:hover {
+    background-color: var(--bg-highlight);
+    color: var(--t);
+}
+
+/* PROJECT LISTING */
+
+.categoryWrapper {
+    flex-direction: row;
+    padding: 0 2rem;
+
+    border-radius: var(--box-br);
+}
+
+.categoryTitle {
+    font-family: 'Inter', sans-serif;
+    margin: 0 0 1rem 0;
+}
+
+.projectContainer {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1rem;
+
+    background-color: var(--bg-highlight);
+    border-radius: var(--box-br);
+}
+
+.projectWrapper {
+    min-width: 10rem;
+    max-width: 15rem;
+    min-height: 15rem;
+    max-height: 15rem;
+    padding: 0.5rem 1.5rem 0 1.5rem;
+
+    background: #0a0a0a;
+    border-radius: var(--box-br);
+}
+/* 
+.projectTitle {
+
+}
+ */
+.projectDescription {
+    font-size: medium;
+    font-family: 'Jetbrainsmono NF', 'Firacode nf';
+}
+
+
+.pButtonContainer {
+    height: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.projectButton {
+    height: min-content;
+    padding: 0.5rem 1rem;
+
+    color: var(--t) !important;
+    border: none;
+    border-radius: var(--t-br);
+    align-items: baseline;
+    transition: all 0.1s ease-out;
+
+    font-size: large;
+    font-family: 'FiraCode NF', 'JetBrainsMono NF';
+}
+
+.projectButtonG {
+    /* border: 1px solid #00ff4444; */
+    background-color: #00ff4444;
+}
+
+.projectButtonG:active {
+    /* border: 1px solid #00ff4444; */
+    background-color: #00ff4488;
+}
+
+.projectButtonY {
+    /* border: 1px solid #ffff4444; */
+    background-color: #ffee4444;
+}
+
+.projectButtonY:active {
+    /* border: 1px solid #ffff4444; */
+    background-color: #ffee4488;
+}
+
+.projectButtonR {
+    /* border: 1px solid #ff444444; */
+    background-color: #ff444444;
+}
+
+.projectButtonR:active {
+    /* border: 1px solid #ff444444; */
+    background-color: #ff444488;
+}
+
+.projectButtonB {
+    /* border: 1px solid #ff444444; */
+    background-color: #0088ff44;
+}
+
+.projectButtonB:active {
+    /* border: 1px solid #ff444444; */
+    background-color: #0088ff88;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
