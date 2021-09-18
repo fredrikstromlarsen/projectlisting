@@ -46,12 +46,12 @@
                         fclose($fileDescription);
 
                         // Checks if there is anything at all within the description file
-                        // Otherwise, substitute with "No Description, yet"
+                        // Otherwise, substitute with default value
                         if ($projectDescription == "") {
-                            $projectDescription = "No description for this project, yet.";
+                            $projectDescription = "No description found.";
                         }
                     } else {
-                        $projectDescription = "No description for this project, yet.";
+                        $projectDescription = "No description found.";
                     }
 
                     echo "
@@ -65,24 +65,24 @@
                     switch ($categoryName) {
                         case "To-do":
         ?>
-                            <button class="projectButton projectButtonG"></button>
-                            <button class="projectButton projectButtonR"></button>
+                            <button class="projectButton projectButtonB"> </button>
+                            <button class="projectButton projectButtonR"> </button>
                         <?php
                             break;
                         case "Active":
                         ?>
-                            <button class="projectButton projectButtonG"></button>
-                            <button class="projectButton projectButtonY"></button>
+                            <button class="projectButton projectButtonG"> </button>
+                            <button class="projectButton projectButtonY"> </button>
                         <?php
                             break;
                         case "Completed":
                         ?>
-                            <button class="projectButton projectButtonB">ﮮ</button>
+                            <button class="projectButton projectButtonB">ﮮ </button>
                         <?php
                             break;
                         case "Archived":
                         ?>
-                            <button class="projectButton projectButtonG">ﭯ</button>
+                            <button class="projectButton projectButtonG">ﭯ </button>
         <?php
                             break;
                     }

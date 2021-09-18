@@ -15,7 +15,7 @@
     --box-br: 0.2rem;
 }
 
-* {}
+/* * {} */
 
 body {
     padding: 2rem;
@@ -34,12 +34,17 @@ body {
 a {
     padding: 0.3rem 0.5rem;
     border-radius: var(--t-br);
-
     background: var(--link-highlight);
+    
     color: var(--link);
     text-decoration: none;
     font-family: 'JetbrainsMono NF', 'FiraCode NF', monospace;
-    font-style: italic;
+    /* font-style: italic; */
+    white-space: nowrap;
+    -webkit-border-radius: var(--t-br);
+    -moz-border-radius: var(--t-br);
+    -ms-border-radius: var(--t-br);
+    -o-border-radius: var(--t-br);
 }
 
 a:hover {
@@ -95,20 +100,24 @@ h3 {
 
 .categoryWrapper {
     flex-direction: row;
-    padding: 0 2rem;
 
     border-radius: var(--box-br);
 }
 
 .categoryTitle {
     font-family: 'Inter', sans-serif;
-    margin: 0 0 1rem 0;
+    margin: 0 0 1rem 1rem;
 }
 
 .projectContainer {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
+    max-width: 100%;
     display: flex;
     flex-direction: row;
+    /* flex-wrap: wrap; */
+    overflow-x: auto;
     gap: 1rem;
     padding: 1rem;
 
@@ -117,10 +126,8 @@ h3 {
 }
 
 .projectWrapper {
-    min-width: 10rem;
-    max-width: 15rem;
-    min-height: 15rem;
-    max-height: 15rem;
+    width: 15rem;
+    height: 15rem;
     padding: 0.5rem 1.5rem 0 1.5rem;
 
     background: #0a0a0a;
@@ -134,6 +141,12 @@ h3 {
 .projectDescription {
     font-size: medium;
     font-family: 'Jetbrainsmono NF', 'Firacode nf';
+    height: 5rem;
+    background: -webkit-linear-gradient(#eee 0%, #eee 2.5rem, #0a0a0a 100%);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    overflow-y: hidden;
 }
 
 
@@ -145,6 +158,8 @@ h3 {
 }
 
 .projectButton {
+    height: -webkit-min-content;
+    height: -moz-min-content;
     height: min-content;
     padding: 0.5rem 1rem;
 
@@ -160,42 +175,42 @@ h3 {
 
 .projectButtonG {
     /* border: 1px solid #00ff4444; */
-    background-color: #00ff4444;
+    background-color: #0c4c;
 }
 
 .projectButtonG:active {
     /* border: 1px solid #00ff4444; */
-    background-color: #00ff4488;
+    background-color: #0c49;
 }
 
 .projectButtonY {
     /* border: 1px solid #ffff4444; */
-    background-color: #ffee4444;
+    background-color: #fb0a;
 }
 
 .projectButtonY:active {
     /* border: 1px solid #ffff4444; */
-    background-color: #ffee4488;
+    background-color: #fb07;
 }
 
 .projectButtonR {
     /* border: 1px solid #ff444444; */
-    background-color: #ff444444;
+    background-color: #f00a;
 }
 
 .projectButtonR:active {
     /* border: 1px solid #ff444444; */
-    background-color: #ff444488;
+    background-color: #f007;
 }
 
 .projectButtonB {
     /* border: 1px solid #ff444444; */
-    background-color: #0088ff44;
+    background-color: #08fa;
 }
 
 .projectButtonB:active {
     /* border: 1px solid #ff444444; */
-    background-color: #0088ff88;
+    background-color: #08f7;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
