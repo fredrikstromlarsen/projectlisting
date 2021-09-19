@@ -18,7 +18,7 @@
         foreach (glob("./*", GLOB_ONLYDIR) as $categoryLink) {
 
             // Checks if folder name starts with \d (a number) followed by a \_ (an underscore)
-            if (preg_match('/\.\/\d\_/i', $categoryLink)) {
+            if (preg_match('/\.\/\d\_/i', $categoryLink) && glob("$categoryLink/*")) {
 
                 // Remove the first 4 letters of the folder relative path, e.g. ./2_active -> active
                 // ucwords() capitalizes the first letter of every word in the string, e.g. active -> Active
